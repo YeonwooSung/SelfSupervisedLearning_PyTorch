@@ -38,11 +38,9 @@ python3 train.py --cuda --wtl2 0.999 --niter 200
 
 ## Pretrained model
 
+This repository provides the pretrained model, which is trained with the Paris StreetView Dataset.
+
 ```bash
-$ cp netG_streetview.pth context_encoder_pytorch/model/
-
-$ cd context_encoder_pytorch/model/
-
 # Inpainting a batch iamges
 $ python3 test.py --netG model/netG_streetview.pth --dataroot dataset/val --batchSize 100
 
