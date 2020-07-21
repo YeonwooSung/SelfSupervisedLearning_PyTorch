@@ -4,4 +4,4 @@ This repository contains my PyTorch implementation of Self-Supervised Learning m
 
 ## Table of Contents
 
-1. [JigsawPuzzle](./JigsawPuzzle/README.md)
+1. [JigsawPuzzle](./JigsawPuzzle)
