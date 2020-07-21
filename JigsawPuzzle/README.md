@@ -44,10 +44,6 @@ To change the file name loaded for the permutations, open the file Dataset/Jigsa
 
     - Implemented data augmentation to discourage learning shortcuts: spatial jittering, normalize each patch indipendently, color jittering, 30% black&white image
 
-### Results
-
-TODO
-
 ## References
 
 - [Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles](https://arxiv.org/abs/1603.09246)
