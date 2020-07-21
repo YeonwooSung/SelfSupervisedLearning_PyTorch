@@ -20,6 +20,18 @@ higher level representations.
 
 [[paper]](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf)
 
+## Implementation
+
+- Two kinds of noise were introduced to the standard MNIST dataset: Gaussian and speckle, to help generalization.
+
+- The autoencoder architecture consists of two parts: encoder and decoder. Each part consists of 3 Linear layers with ReLU activations. The last activation layer is Sigmoid.
+
+- The training was done for 120 epochs.
+
+- Visualizations have been included in the notebook.
+
+- Used Google's Colaboratory with GPU enabled.
+
 ## References
 
 - [Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion](http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf)
