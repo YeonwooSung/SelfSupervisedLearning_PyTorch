@@ -38,7 +38,7 @@ python3 train.py --cuda --wtl2 0.999 --niter 200
 
 ## Pretrained model
 
-This repository provides the pretrained model, which is trained with the Paris StreetView Dataset.
+This repository provides the pretrained model, which is trained with the Paris StreetView Dataset. You could test the pretained model by using the following insturctions.
 
 ```bash
 # Inpainting a batch iamges
