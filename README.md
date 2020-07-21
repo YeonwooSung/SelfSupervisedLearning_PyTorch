@@ -5,4 +5,5 @@ This repository contains PyTorch implementations of Self-Supervised Learning mod
 ## Table of Contents
 
 1. [Jigsaw Puzzle](./JigsawPuzzle)
-2. [Denoising AutoEncoder](./AutoEncoder/DenoisingAutoEncoder)
+2. [AutoEncoders](./AutoEncoder)
+    - [Denoising AutoEncoder](./AutoEncoder/DenoisingAutoEncoder)
