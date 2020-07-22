@@ -1,0 +1,19 @@
+batch_size: 512
+epochs: 40
+eval_every_n_epochs: 1
+fine_tune_from: 'Mar13_22-46-30_thallessilva'
+log_every_n_steps: 50
+
+model:
+  out_dim: 256
+  base_model: "resnet18"
+
+dataset:
+  s: 1
+  input_shape: (96,96,3)
+  num_workers: 0
+  valid_size: 0.05
+
+loss:
+  temperature: 0.5
+  use_cosine_similarity: True
