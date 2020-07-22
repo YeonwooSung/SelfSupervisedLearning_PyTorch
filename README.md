@@ -8,3 +8,5 @@ This repository contains PyTorch implementations of Self-Supervised Learning mod
 2. [AutoEncoders](./AutoEncoder)
     - [Denoising AutoEncoder](./AutoEncoder/DenoisingAutoEncoder)
     - [Context AutoEncoder](./AutoEncoder/ContextAutoEncoder)
+3. [Bootstrap Your Own Latent](./BYOL)
+4. [SimCLR](./SimCLR)
