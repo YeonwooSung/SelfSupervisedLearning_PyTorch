@@ -89,6 +89,8 @@ Features are learned using the ```STL10 train+unsupervised``` set and evaluated 
 
 This repository provides the pretrained models for Logistic Regression, but not the pretrained models for KNN. So, if you want to use the KNN method, please train it by yourself.
 
+You could find the provided pretrained models in [pretrained_models](./pretrained_models) directory.
+
 ## References
 
 [1] Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton. [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
