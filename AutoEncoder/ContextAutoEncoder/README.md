@@ -42,8 +42,8 @@ This repository provides the pretrained model, which is trained with the Paris S
 
 ```bash
 # Inpainting a batch iamges
-$ python3 test.py --netG model/netG_streetview.pth --dataroot dataset/val --batchSize 100
+$ python3 test.py --netG netG_streetview.pth --dataroot dataset/val --batchSize 100
 
 # Inpainting one image 
-$ python3 test_one.py --netG model/netG_streetview.pth --test_image result/test/cropped/065_im.png
+$ python3 test_one.py --netG netG_streetview.pth --test_image result/test/cropped/065_im.png
 ```
